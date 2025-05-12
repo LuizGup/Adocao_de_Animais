@@ -15,7 +15,7 @@
     <header class="header-container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <img class="navbar-img" src="assets/logoComTitulo.png">
+              <img class="navbar-img" src="assets/logoComTitulo.png" alt="Logo Latidos&Ronrons">
               <!-- menu hambuguer -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
           <button type="button" class="btn btn-lg btn-adotar"> Quero adotar </button>
 
         </div>
-        <img class="home-section-img" src="assets/logo3.png">
+        <img class="home-section-img" src="assets/logo3.png" alt="Logo Latidos&Ronrons">
       </section>
 
 
@@ -82,11 +82,11 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                 Nosso Impacto
               </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">Com o apoio de voluntários, doadores e parceiros, seguimos transformando histórias e construindo pontes entre pessoas e animais. 
                 Acreditamos que adotar é um ato de amor — e estamos aqui para facilitar esse encontro.</div>
             </div>
@@ -149,10 +149,40 @@
           <h3> Inscrição para Adoção </h3>
           <p> Preencha o formulário abaixo para iniciar o processo de adoção. Nossa equipe entrará em contato para dar continuidade. </p>
         </div>
+
+        <form class="p-4 border rounded shadow-sm">
+            <div class="mb-3">
+                <label for="nomeCompleto" class="form-label">Nome completo</label>
+                <input type="text" class="form-control" id="nomeCompleto" placeholder="Seu nome completo">
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="seu.email@exemplo.com">
+                </div>
+                <div class="col">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Seu endereço completo">
+            </div>
+            <div class="mb-3">
+                <label for="animalInteresse" class="form-label">Qual animal você tem interesse?</label>
+                <input type="text" class="form-control" id="animalInteresse" placeholder="Ex: Um gato adulto, um cachorro filhote, etc.">
+            </div>
+            <div class="mb-3">
+                <label for="motivacao" class="form-label">Por que você quer adotar um animal?</label>
+                <textarea class="form-control" id="motivacao" rows="4" placeholder="Conte-nos um pouco sobre sua motivação para adoção..."></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary w-100">Enviar inscrição</button>
+            </div>
+        </form>
       </section>
-
-
-
+      
       <section class="photo-gallery-section" id="photo-gallery-section">
         <div class="photo-gallery-section-text">
           <h3> Galeria </h3>
