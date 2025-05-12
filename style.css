@@ -234,3 +234,8 @@ main{
 .card-gallery .card-body{
     padding: 10px;
 }
+
+/* ---------- SECTION FOOTER --------------*/
+#footer{
+    background-color: #2C5772;
+}
