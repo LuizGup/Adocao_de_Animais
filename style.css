@@ -239,3 +239,7 @@ main{
 #footer{
     background-color: #2C5772;
 }
+
+#LogoFooter{
+    max-width: 25vw ;
+} 
