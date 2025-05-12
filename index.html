@@ -4,10 +4,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/favicon_io (1)/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title> Latidos&Ronrons</title>
 </head>
 <body>
-    
+    <header class="header-container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img class="navbar-img" src="assets/logoComTitulo.png">
+              <!-- menu hambuguer -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#about">Sobre</a>
+                    <a class="nav-link" href="#programming-section">Programação</a>
+                    <a class="nav-link" href="#form-section">Inscrição</a>
+                    <a class="nav-link" href="#photo-gallery-section">Galeria</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section class="home-section">
+        <div class="home-section-text">
+          <h1> Adotar é um ato de amor </h1>
+          <h2> Conheça nossos amigos de quatro patas que estão em busca de um lar amoroso. </h2>
+          <button type="button" class="btn btn-lg btn-adotar"> Quero adotar </button>
+
+        </div>
+        <img class="home-section-img" src="assets/logo3.png">
+      </section>
+
+
+      <section class="about-section" id="about">
+        <h3> Sobre a Latidos & Ronrons </h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Nossa Missão
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">A ONG Latidos & Ronrons surgiu a partir da necessidade de espalhar amor, carinho e responsabilidade em forma de quatro patas. 
+                Nossa missão é promover o bem-estar animal e incentivar a adoção responsável de cães e gatos que foram abandonados, maltratados ou estão em situação de vulnerabilidade.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Nossa Filosofia
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Acreditamos que todo animal merece uma segunda chance e, por isso, trabalhamos incansavelmente para proporcionar a eles cuidados veterinários, 
+                alimentação, abrigo seguro e, principalmente, a chance de encontrar um lar amoroso. Para isso, buscamos tornar o processo de adoção simples, acessível e seguro, 
+                tanto para os animais quanto para os adotantes.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Nossas Ações
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Além das adoções, a Latidos & Ronrons também atua em campanhas de castração, vacinação e vermifugação, e eventos comunitários como feiras de adoção, palestras e ações de doação.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Nosso Impacto
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Com o apoio de voluntários, doadores e parceiros, seguimos transformando histórias e construindo pontes entre pessoas e animais. 
+                Acreditamos que adotar é um ato de amor — e estamos aqui para facilitar esse encontro.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="programming-section" id="programming-section">
+        <div class="programming-section-text">
+          <h3> Programação de Atividades </h3>
+          <p> Confira o cronograma de atividades da Latidos & Ronrons e participe! Seu apoio é fundamental para continuarmos nossa missão. </p>
+        </div>
+
+        <div class="cards-conteiner">
+          <div class="card">
+            <div class="card-body">
+              <span class="material-symbols-outlined">vaccines </span> 
+              <h5 class="card-title"> Campanhas de vacinação e vermifugação</h5>
+              <h6 class="card-subtitle mb-2 ">Ações periódicas para garantir a saúde dos animais resgatados ou da comunidade.</h6>
+              <p class="card-text"> <strong> Quando:</strong> Primeiro sábado de cada mês </p>
+              <p class="card-text"> <strong> Onde:</strong> Sede da ONG </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <span class="material-symbols-outlined">pets</span>
+              <h5 class="card-title"> Mutirões de castração </h5>
+              <h6 class="card-subtitle mb-2">Campanhas com veterinários parceiros para controlar a população animal.</h6>
+              <p class="card-text"> <strong> Quando:</strong> Último domingo de cada mês </p>
+              <p class="card-text"> <strong> Onde: </strong> Clínicas veterinárias parceiras </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <span class="material-symbols-outlined"> volunteer_activism </span>
+              <h5 class="card-title"> Campanhas de arrecadação </h5>
+              <h6 class="card-subtitle mb-2">Coleta de ração, cobertores, produtos de limpeza, medicamentos ou doações financeiras.</h6>
+              <p class="card-text"> <strong> Quando:</strong> Contínuo </p>
+              <p class="card-text"> <strong> Onde: </strong> Online e pontos físicos de coleta </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <span class="material-symbols-outlined">cleaning_services</span>
+              <h5 class="card-title"> Dias de limpeza e manutenção do abrigo </h5>
+              <h6 class="card-subtitle mb-2">Ações colaborativas com voluntários para melhorar o espaço físico da ONG. </h6>
+              <p class="card-text"> <strong> Quando:</strong> Segundo sábado de cada mês </p>
+              <p class="card-text"> <strong> Onde:</strong> Sede da ONG </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="form-section" id="form-section">
+        <div class="form-section-text">
+          <h3> Inscrição para Adoção </h3>
+          <p> Preencha o formulário abaixo para iniciar o processo de adoção. Nossa equipe entrará em contato para dar continuidade. </p>
+        </div>
+      </section>
+
+
+
+      <section class="photo-gallery-section" id="photo-gallery-section">
+        <div class="photo-gallery-section-text">
+          <h3> Galeria </h3>
+          <p> Conheça alguns dos nossos amigos de quatro patas que estão disponíveis para adoção e veja registros das nossas atividades. </p>
+        </div>
+
+        <div class="card-gallery-container">
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Rufus </h5>
+              <p class="card-text">Gato laranja, 2 anos, carinhoso e brincalhão </p>
+            </div>
+          </div>
+
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Nina </h5>
+              <p class="card-text"> Gata cinza, 5 meses, dócil e curiosa </p>
+            </div>
+          </div>
+
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Thor </h5>
+              <p class="card-text"> Cachorro de porte médio, 3 anos, guardião e afetuoso </p>
+            </div>
+          </div>
+
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Feira de Adoção </h5>
+              <p class="card-text"> Evento mensal no parque central </p>
+            </div>
+          </div>
+
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Campanha de vacinação </h5>
+              <p class="card-text">Mutirão de saúde animal </p>
+            </div>
+          </div>
+
+          <div class="card-gallery mb-3">
+            <img src="assets/gato_laranja.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Voluntários em ação </h5>
+              <p class="card-text"> Dia de limpeza e manutenção do abrigo </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
