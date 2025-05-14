@@ -239,7 +239,6 @@ main{
 }
 
 .card-gallery{
-    height: 23rem;
     width: 30%;
     border-radius: 10px;
     transition: box-shadow 0.3s ease;
@@ -265,5 +264,5 @@ main{
 }
 
 #LogoFooter{
-    max-width: 25vw ;
+    width: 30vh ;
 } 
