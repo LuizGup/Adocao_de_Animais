@@ -49,6 +49,12 @@ body{
         height: 80px; 
         width: auto;
     }
+    
+
+    .home-section-img{
+        width: 20vw;
+        height: auto;
+    }
 }
 
 
