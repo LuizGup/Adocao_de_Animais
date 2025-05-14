@@ -34,6 +34,25 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
+.logo-pequena {
+    display: none;
+}
+
+/* Mostra a logo pequena e esconde a grande em telas menores */
+@media (max-width: 620px) {
+    .logo-grande {
+        display: none;
+    }
+
+    .logo-pequena {
+        display: block;
+        height: 80px; 
+        width: auto;
+    }
+}
+
+
+
 
 main{
     display: flex;
@@ -54,7 +73,6 @@ main{
     color: var(--azul-primario);
     padding-top: 10%;
     padding-left: 10%;
-    /* mudar isso depois */
 }
 
 .home-section-text h1 {
@@ -187,7 +205,7 @@ main{
 }
 
 
-/* ---------- SECTION FALERIA DE FOTOS --------------*/
+/* ---------- SECTION GALERIA DE FOTOS --------------*/
 
 
 .photo-gallery-section{
