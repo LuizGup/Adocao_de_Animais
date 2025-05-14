@@ -73,7 +73,6 @@ main{
     color: var(--azul-primario);
     padding-top: 10%;
     padding-left: 10%;
-    /* mudar isso depois */
 }
 
 .home-section-text h1 {
@@ -206,7 +205,7 @@ main{
 }
 
 
-/* ---------- SECTION FALERIA DE FOTOS --------------*/
+/* ---------- SECTION GALERIA DE FOTOS --------------*/
 
 
 .photo-gallery-section{
