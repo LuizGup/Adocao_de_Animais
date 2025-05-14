@@ -71,6 +71,11 @@ main{
     color: #D2ECF7;
 }
 
+.btn-adotar a{
+    color: #D2ECF7;
+    text-decoration: none;
+}
+
 .btn-adotar:hover{
     background-color: var(--azul-primario);
     color: #FFFFFF;
@@ -161,7 +166,7 @@ main{
 }
 
 
-/* ---------- SECTION FORMULAÁRIO DE INSCRIÇÃO --------------*/
+/* ---------- SECTION FORMULÁRIO DE INSCRIÇÃO --------------*/
 .form-section{
     display: flex;
     justify-content: center;
